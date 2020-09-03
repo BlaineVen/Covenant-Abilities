@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap);
+
+/*body*/
+
+body {
+    font-family: 'Noto Serif TC', serif;
+    background: url(img/Oribos1.jpg) no-repeat center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 4.0em;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: 100;
+}
+
+.nee {
+    font-size: 2em;
+}
+
+table, th, td {
+    border: none;
+    padding: 8px;
+} 
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    padding: 0 0 7em 0;
+}
+
+.container th {
+    box-shadow: 2px 3px 3px -1px;
+    background-color: rgb(240, 236, 236);
+}
+
+.container td {
+    background-color: rgb(240, 237, 237);
+    font-size: 1em;
+    font-weight: 600;
+    box-shadow: 1.2px 3px 4px -2px #0E1119;
+}
+.container td, .container th {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+
+.container td:hover {
+    background-color: #f5cc17;
+    color: #1d1d1a;
+    
+    box-shadow: #565557 -1px 1px, #adadad -2px 2px, #313131 -3px 3px, #464645 -4px 4px, #707070 -5px 5px;
+    transform: translate3d(4px, -4px, 0);
+    
+    transition-delay: 0s;
+        transition-duration: 0.5s;
+        transition-property: all;
+    transition-timing-function: line;
+  }
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/*
+td:hover {
+    color: rgb(220, 40, 236);
+}
+*/
+
+
+/* Covenant Colors */
+
+.kyr {
+    color: rgb(136, 215, 252);
+}
+
+.nec {
+    color: rgb(5, 92, 5);
+}
+
+.fae {
+    color: rgb(3, 5, 119);
+}
+
+.ven {
+    color: rgb(153, 4, 4);
+}
+
